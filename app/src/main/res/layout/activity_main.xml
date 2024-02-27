@@ -39,19 +39,37 @@
         app:layout_constraintVertical_bias="0.356" />
 
     <Button
-        android:id="@+id/start_stop"
+        android:id="@+id/stop_but"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#D7E4C0"
-        android:text="Start/Stop"
+        android:text="Stop"
+        android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="30dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.554" />
+        app:layout_constraintVertical_bias="0.667" />
+
+    <Button
+        android:id="@+id/start_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#D7E4C0"
+        android:text="Start"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
 
     <Button
         android:id="@+id/Reset"
@@ -67,7 +85,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.728" />
+        app:layout_constraintVertical_bias="0.828" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
