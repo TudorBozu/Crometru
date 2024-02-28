@@ -39,7 +39,7 @@ stop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 cronometru.setBase(SystemClock.elapsedRealtime());
-                cronometru.stop();
+                cronometru.start();
             }
         });
     }
